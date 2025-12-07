@@ -1,0 +1,11 @@
+.header-layout3 .main-menu ul li > a {
+    color: #000 !important;
+}
+
+.header-layout3 .main-menu ul li > a:hover {
+    color: #000 !important;
+}
+
+.header-layout3 .sub-menu li a {
+    color: #000 !important;
+}
