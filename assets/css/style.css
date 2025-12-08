@@ -7524,7 +7524,7 @@ a.text-theme:hover,
 }
 
 .breadcumb-title {
-  color: var(--white-color);
+  color: var(--black-color);
   font-size: 64px;
   margin: -0.18em 0 -0.14em 0;
   line-height: 1.1;
