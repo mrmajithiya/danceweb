@@ -34,4 +34,34 @@
 }
 
 
-/* this the award section styles  */
+/* this the single class page  section styles  */
+.feature-tab-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    align-items: start;
+}
+
+.feature-image img {
+    width: 100%;
+    display: block;
+}
+
+.feature-icon-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-icon-list li {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+/* Points that must appear BELOW the image */
+.feature-icon-list li.below {
+    grid-column: 1 / 3;       /* makes it full width under both columns */
+    margin-top: 5px;
+}

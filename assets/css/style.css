@@ -1795,7 +1795,7 @@ textarea.is-invalid {
 
 /*------------------- 3.2. Buttons -------------------*/
 .th-btn {
-  position: relative;
+  /* position: relative;
   z-index: 2;
   overflow: hidden;
   vertical-align: middle;
@@ -1811,7 +1811,24 @@ textarea.is-invalid {
   line-height: 26px;
   text-transform: uppercase;
   padding: 15px 35px;
-  border-radius: 10px;
+  border-radius: 10px; */
+  position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 10px;
 }
 
 .th-btn:before,
@@ -1938,6 +1955,7 @@ textarea.is-invalid {
 
 .th-btn.red-btn {
   background-color: var(--theme-color);
+  box-sizing: 10PX;
 }
 
 .th-btn.red-btn:before,
@@ -22296,3 +22314,4 @@ h2 {
   position: relative;
   z-index: 1;
 }
+
